@@ -1,17 +1,5 @@
-Estimated time to test and create models plus logic - 4.5 hours
-Code cleaning due to non familiarity with mypy -1.5 hrs
-Used chatgpt for hints of code cleaning but did it myself.- plus 2 hours for debugging
-Understanding the problem and getting used to env -1 hr
 
 
-Returns
--------
-Total Score 75 percent
-62 precent prediction accuracy - kind of low for me because Nueral networks and tfidf on 37669 rows
-makes my system run out of memory. I had to choose result with less metrics over no result with high metrics.
-90 perecent code quality score
-
-"""
 import re
 from io import BytesIO
 from typing import Dict, List
